@@ -1,4 +1,4 @@
-FROM tooling:latest
+FROM quay.io/debezium/tooling:latest
 
 RUN yum install -y community-mysql
 RUN yum install -y postgresql
